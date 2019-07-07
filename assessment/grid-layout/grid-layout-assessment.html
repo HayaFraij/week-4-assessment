@@ -45,16 +45,22 @@
     /* Your code starts here */
     /* CODE AREA */
 
-    .container {}
+    .container {
+    	display: grid;
+    	grid-template-columns: 1fr 1fr 1fr;
+    	grid-gap: 10px;
+    }
 
-    .a {}
+    .a {
+    	grid-column: 2/3;
+    	grid-row: 2/3;
+    }
 
     /* END CODE AREA */
   </style>
 </head>
 
 <body>
-</body>
 <h1>Grid Layout</h1>
 <div class="container">
   <div class="item a">A</div>
@@ -66,3 +72,4 @@
 </div>
 
 </html>
+</body>
