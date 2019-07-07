@@ -17,14 +17,13 @@
     }
 
     .container {
-
       background-color: #d90;
+
     }
 
     .leftbar,
     .rightbar {
       background-color: #09d;
-
     }
 
     footer {
@@ -41,11 +40,19 @@
 
     /* Your code starts here */
     /* CODE AREA */
-    .container {}
+    .container {
+      display: flex;
+      justify-content: space-between;
+      flex-grow: 1;
+      /*column-gap: none;*/
+    }
 
-    .content {}
+    .content {
+    }
 
-    .leftbar {}
+    .leftbar {
+      order: -1;
+    }
 
     /* END CODE AREA */
   </style>
